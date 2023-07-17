@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocusaurus_demo=self.webpackChunkdocusaurus_demo||[]).push([[121],{8070:function(e){e.exports=JSON.parse('[{"label":"windows","permalink":"/notes/tags/windows","count":3},{"label":"frontend","permalink":"/notes/tags/frontend","count":1},{"label":"vscode","permalink":"/notes/tags/vscode","count":1}]')}}]);
