@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "docusaurus": "docusaurus",
-    "start": "docusaurus start",
+    "start": "docusaurus start --no-open",
     "build": "docusaurus build",
     "swizzle": "docusaurus swizzle",
     "deploy": "docusaurus deploy",
@@ -12,7 +12,7 @@
     "serve": "docusaurus serve",
     "write-translations": "docusaurus write-translations",
     "write-heading-ids": "docusaurus write-heading-ids",
-    "archive": "7z a \"%userprofile%\\desktop\\%npm_package_name%.7z\" . -xr!node_modules -xr!build -xr!.docusaurus"
+    "archive": "7z a \"%userprofile%\\desktop\\%npm_package_name%.7z\" . -xr!node_modules -xr!build -xr!.docusaurus -xr!.git"
   },
   "dependencies": {
     "@docusaurus/core": "2.4.1",

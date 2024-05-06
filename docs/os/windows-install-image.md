@@ -15,6 +15,10 @@ tags:
 
 ## Windows 11
 
+- **Windows 11 (consumer editions), version 23H2 (x64) - DVD (Chinese-Simplified)**<br />
+  File: [zh-cn_windows_11_consumer_editions_version_23h2_x64_dvd_91207780.iso](magnet:?xt=urn:btih:19ffe4debe0e0466dcf7a93dc910756e23d77356&dn=zh-cn_windows_11_consumer_editions_version_23h2_x64_dvd_91207780.iso&xl=6714650624)<br />
+  SHA256: 86533155B48398556014DE1AA03917A4C243686BB1E8D6B6D878EC5B9C8638FA
+
 - **Windows 11 (consumer editions), version 22H2 (x64) - DVD (Chinese-Simplified)**<br />
   File: [zh-cn_windows_11_consumer_editions_version_22h2_x64_dvd_59cfe6ee.iso](magnet:?xt=urn:btih:576ca02db5b3d98a237de508139f9f471e69e247&dn=zh-cn_windows_11_consumer_editions_version_22h2_x64_dvd_59cfe6ee.iso&xl=5517127680)<br />
   SHA1: EDA6B80B5E52567D22C862884D7C987C316AF844<br />

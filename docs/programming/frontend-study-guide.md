@@ -122,6 +122,8 @@ tags:
 
 标准的进一步发展，逻辑的进一步复杂，对 UI 的统一性需求，催生出了 Bootstrap 这款响应式设计优先的框架。在 float 也渐渐不能满足需求的情况下，flex 作为新的标准诞生了，对于现代浏览器来说有着足够好的兼容性（IE 10+），也是目前的主要布局模式。
 
+![](https://caniuse.bitsofco.de/image/flexbox.png)
+
 <details>
 <summary>示例</summary>
 
@@ -192,16 +194,16 @@ tags:
 
 针对前后端分离并有交互的内容，大量使用了 Node.js 工具链，当前主要开发模式。同时也分为了多个框架流派。
 
-#### React {#csr-react}
+#### [React](https://react.dev/) {#csr-react}
 
 - [Create React App](https://create-react-app.dev/)
 
-#### Vue {#csr-vue}
+#### [Vue](https://vuejs.org/) {#csr-vue}
 
 - [Vite](https://vitejs.dev/)
 - [Vue CLI](https://cli.vuejs.org/)
 
-#### Angular {#csr-angular}
+#### [Angular](https://angular.io/) {#csr-angular}
 
 - [Angular CLI](https://angular.io/guide/setup-local)
 
@@ -217,6 +219,24 @@ tags:
 #### Vue {#ssr-vue}
 
 - [Nuxt.js](https://nuxtjs.org/)
+
+## 一些误区 {#misunderstanding}
+
+### 吹捧 Vite，夸大 HTTP 2 性能 {#misunderstanding-1}
+
+由于 ES Module 已作为标准推出，很多编译器以该标准作为基础进行优化，以达到性能提升。另外 HTTP 2 的普及，也使大量小文件的加载性能得到提升。但根据真实生产环境中的测试，切换到 ES Module + HTTP 2 的方案并没有带来很大的提升，有的时候反而情况变得更糟糕，这是解释型语言的弊端。
+
+了解更多信息：
+
+- [Bundling vs Native ESM](https://turbo.build/pack/docs/why-turbopack#bundling-vs-native-esm)
+
+### 吹捧 yarn、pnpm {#misunderstanding-2}
+
+yarn 和 pnpm 都是在早期针对 npm 的不足诞生的工具，但今天的 npm 作为默认工具已改进吸取了大部分优势，新的特性包括：
+
+- 提升依赖
+- workspace 支持
+- 以目录链接方式安装依赖（测试）
 
 ## 附录 {#appendix}
 
