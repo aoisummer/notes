@@ -5,13 +5,7 @@ tags:
 
 # Windows 安装镜像
 
-官方原版 ISO 光盘镜像文件下载整理
-
-:::info
-
-通过 [endoflife](https://endoflife.date/windows) 快速查看生命周期支持
-
-:::
+官方原版 ISO 光盘镜像文件下载整理 （[查看生命周期支持](https://endoflife.date/windows)）
 
 ## Windows 11
 
@@ -42,6 +36,14 @@ tags:
 - **Windows 10 (consumer editions), version 21H1 (x64) - DVD (Chinese-Simplified)**<br />
   File: [cn_windows_10_consumer_editions_version_21h1_x64_dvd_1baf479d.iso](magnet:?xt=urn:btih:D6ED0CA62352B3D61EB1EC921596F030D866473C&dn=cn_windows_10_consumer_editions_version_21h1_x64_dvd_1baf479d.iso&xl=5807677440)<br />
   SHA1: 667836E090DBA6B2CDD593152F8E51D497F5779D
+
+- **Windows 10 (consumer editions), version 20H2 (x64) - DVD (Chinese-Simplified)**<br />
+  File: [cn_windows_10_consumer_editions_version_20h2_x64_dvd_d4f7a83e.iso](magnet:?xt=urn:btih:9BF70F9E1170CBF6DA9A5ECFFD04B70644802CD5&dn=cn_windows_10_consumer_editions_version_20h2_x64_dvd_d4f7a83e.iso&xl=6044921856)<br />
+  SHA1: D5F164626C8F8E0E8E38AB5B7DCC0EAE21813241
+
+- **Windows 10 (consumer editions), version 2004 (x64) - DVD (Chinese-Simplified)**<br />
+  File: [cn_windows_10_consumer_editions_version_2004_x64_dvd_0c2eefdb.iso](magnet:?xt=urn:btih:75C53FC59E677E355327E73E3296F8848F90A538&dn=cn_windows_10_consumer_editions_version_2004_x64_dvd_0c2eefdb.iso&xl=5634521088)<br />
+  SHA1: 64940D6FBC0F24971349C8E03BE508285EA29722
 
 ## Windows 8
 
