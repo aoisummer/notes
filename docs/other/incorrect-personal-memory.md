@@ -56,9 +56,21 @@
 - [“砍价”套路用户活动](https://zh.wikipedia.org/wiki/%E6%8B%BC%E5%A4%9A%E5%A4%9A#%E6%B4%BB%E5%8A%A8%E7%9B%B8%E5%85%B3)（2022 年）
 - [恶意代码事件](https://zh.wikipedia.org/wiki/%E6%8B%BC%E5%A4%9A%E5%A4%9A#%E6%81%B6%E6%84%8F%E4%BB%A3%E7%A0%81)（2023 年）
 
+### 腾讯游戏
+
+- 金铲铲之战抄袭公主连结（2022 年）<sup>[[bilibili]](https://www.bilibili.com/video/BV1JF411K7Xg/)</sup>
+
 ### 香飘飘
 
 - “爱国”营销：在日商品标语事件（2024 年）<sup>[[weixin]](https://mp.weixin.qq.com/s/AmCSOulO0E6Sc_KNLv93vg)</sup>
+
+### 大婵诗酒业
+
+- [iPhone 爆炸阴谋论](https://tfc-taiwan.org.tw/articles/11038)（2024 年）<sup>[[x]](https://x.com/i/status/1838153412049014912)</sup>
+
+### 晟鑫建设工程
+
+- [iPhone 爆炸阴谋论](https://tfc-taiwan.org.tw/articles/11038)（2024 年）<sup>[[weixin]](https://mp.weixin.qq.com/s/QjHiGClg224r7dvantncJA)</sup>
 
 ## 人物 {#person}
 
@@ -88,3 +100,7 @@
 ### 钟南山
 
 - [宣称中药连花清瘟对治疗新冠肺炎有效](https://zh.wikipedia.org/wiki/%E9%92%9F%E5%8D%97%E5%B1%B1#%E7%9B%B8%E5%85%B3%E7%88%AD%E8%AD%B0%E4%BA%8B%E4%BB%B6)（2020 年）
+
+### 汤家凤
+
+- [iPhone 爆炸阴谋论](https://tfc-taiwan.org.tw/articles/11038)（2024 年）<sup>[[x]](https://x.com/i/status/1838513718981988847)</sup>

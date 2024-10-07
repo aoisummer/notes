@@ -5,11 +5,7 @@ tags:
 
 # 常用软件
 
-:::info
-
 本处收集的软件以 Windows 为主，部分包含 Scoop 包名。
-
-:::
 
 ## 软件包管理 {#package-management}
 
