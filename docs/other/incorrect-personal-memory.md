@@ -72,6 +72,10 @@
 
 - [iPhone 爆炸阴谋论](https://tfc-taiwan.org.tw/articles/11038)（2024 年）<sup>[[weixin]](https://mp.weixin.qq.com/s/QjHiGClg224r7dvantncJA)</sup>
 
+### 佛山邦应商贸有限公司
+
+- 双休争议（2025 年）<sup>[[x]](https://x.com/i/status/1914624820475838672)</sup>
+
 ## 人物 {#person}
 
 ### 周鸿祎
@@ -104,3 +108,11 @@
 ### 汤家凤
 
 - [iPhone 爆炸阴谋论](https://tfc-taiwan.org.tw/articles/11038)（2024 年）<sup>[[x]](https://x.com/i/status/1838513718981988847)</sup>
+
+### 董明珠
+
+- [绝不用海归派间谍言论](https://zh.wikipedia.org/wiki/%E8%91%A3%E6%98%8E%E7%8F%A0#%E7%9F%A5%E5%90%8D%E8%A8%80%E8%AE%BA%E4%B8%8E%E4%BA%8B%E4%BB%B6)（2025 年）
+
+### 杜建国
+
+- 海参崴归属（2025 年）<sup>[[x]](https://x.com/i/status/1916668569309282391)</sup>

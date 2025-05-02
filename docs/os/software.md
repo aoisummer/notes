@@ -69,6 +69,13 @@ tags:
 | [HWiNFO](https://www.hwinfo.com/)                            | 专业的系统信息、硬件分析与监控软件    | extras/hwinfo          |
 | [Ventoy](https://www.ventoy.net/)                            | 创建可引导 USB 设备的工具             | extras/ventoy          |
 
+## 备份 {#backup}
+
+| 名称                                                 | 简介            | Scoop           |
+| ---------------------------------------------------- | --------------- | --------------- |
+| [Restic](https://restic.net/)                        | 现代的备份程序  | restic          |
+| [Backrest](https://github.com/garethgeorge/backrest) | Restic 的 WebUI | extras/backrest |
+
 ## 其它 {#other}
 
 | 名称                                                 | 简介                                            | Scoop           |

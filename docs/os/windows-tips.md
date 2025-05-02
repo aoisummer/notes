@@ -39,4 +39,4 @@ reg add HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate /v 
 ### Windows 11 跳过网络连接和微软账户 {#windows-11-skip-network-connect-and-microsoft-account}
 
 1. 在 OOBE 界面按 Shift + F10 调出命令行窗口
-2. 输入命令：`oobe\bypassnro`
+2. 输入命令：`start ms-cxh:localonly`
