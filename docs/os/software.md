@@ -58,6 +58,8 @@ tags:
 | [foobar2000](https://www.foobar2000.org/)                    | 一个 Windows 上的免费高级音频播放器                                                          | extras/foobar2000 |
 | [XnView MP](https://www.xnview.com/en/xnviewmp/)             | 一个强大的图片管理浏览器，支持批量裁剪和转换                                                 | extras/xnviewmp   |
 | [Honeyview](https://www.bandisoft.com/honeyview/)            | 一款轻量快速的图片查看器                                                                     | extras/honeyview  |
+| [Jellyfin](https://jellyfin.org/)                            | 综合性音视频媒体库，可供跨端访问                                                             | extras/jellyfin   |
+| [Komga](https://komga.org)                                   | 漫画书籍类库管理                                                                             | extras/komga      |
 
 ## 硬件工具 {#hardware}
 
