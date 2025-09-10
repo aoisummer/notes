@@ -72,9 +72,17 @@
 
 - [iPhone 爆炸阴谋论](https://tfc-taiwan.org.tw/articles/11038)（2024 年）<sup>[[weixin]](https://mp.weixin.qq.com/s/QjHiGClg224r7dvantncJA)</sup>
 
+### 娃哈哈
+
+- 与农夫山泉的纷争，爱国营销 （2024 年）<sup>[[wikipedia]](https://zh.wikipedia.org/wiki/%E5%A8%83%E5%93%88%E5%93%88#%E5%8F%91%E5%B1%95%E5%8E%86%E7%A8%8B) [[x]](https://x.com/i/status/1945869854298591504)</sup>
+
 ### 佛山邦应商贸有限公司
 
 - 双休争议（2025 年）<sup>[[x]](https://x.com/i/status/1914624820475838672)</sup>
+
+### 361 度
+
+- 与马拉松女子冠军解约（2025 年） <sup>[[x]](https://x.com/i/status/1963252539874246834)</sup>
 
 ## 人物 {#person}
 
@@ -120,3 +128,7 @@
 ### 黄河清
 
 - 宣扬西方伪史论（2025 年）<sup>[[x]](https://x.com/i/status/1936962334385447314)</sup>
+
+### 张雪峰
+
+- [5000 万爱国营销](https://zh.wikipedia.org/wiki/%E5%BC%A0%E9%9B%AA%E5%B3%B0#%E6%89%93%E5%8F%B0%E6%B9%BE%E6%8D%90%E6%AC%BE5000%E4%B8%87%E8%A8%80%E8%AE%BA)（2025 年） <sup>[[x]](https://x.com/i/status/1963699700772835792) [[weixin]](https://mp.weixin.qq.com/s/UBJ0bpOW8hDol790e1PWrw) [[weixin]](https://mp.weixin.qq.com/s/40RKWT9mnaYtXD6nY7jnIA)</sup>
