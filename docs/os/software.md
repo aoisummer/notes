@@ -51,15 +51,18 @@ tags:
 
 ## 多媒体 {#multimedia}
 
-| 名称                                                         | 简介                                                                                         | Scoop             |
-| ------------------------------------------------------------ | -------------------------------------------------------------------------------------------- | ----------------- |
-| [PotPlayer](https://potplayer.daum.net/)                     | 一个免费的媒体播放器，内置多种格式解码器，支持硬件加速，多种字幕格式                         |                   |
-| [K-Lite Codec Pack](https://www.codecguide.com/about_kl.htm) | 编解码器包是一个包含了大量音频视频格式的编码解码器包，外挂的解码器也可以兼容其它第三方播放器 |                   |
-| [foobar2000](https://www.foobar2000.org/)                    | 一个 Windows 上的免费高级音频播放器                                                          | extras/foobar2000 |
-| [XnView MP](https://www.xnview.com/en/xnviewmp/)             | 一个强大的图片管理浏览器，支持批量裁剪和转换                                                 | extras/xnviewmp   |
-| [Honeyview](https://www.bandisoft.com/honeyview/)            | 一款轻量快速的图片查看器                                                                     | extras/honeyview  |
-| [Jellyfin](https://jellyfin.org/)                            | 综合性音视频媒体库，可供跨端访问                                                             | extras/jellyfin   |
-| [Komga](https://komga.org)                                   | 漫画书籍类库管理                                                                             | extras/komga      |
+| 名称                                                         | 简介                                                                                         | Scoop                        |
+| ------------------------------------------------------------ | -------------------------------------------------------------------------------------------- | ---------------------------- |
+| [PotPlayer](https://potplayer.daum.net/)                     | 一个免费的媒体播放器，内置多种格式解码器，支持硬件加速，多种字幕格式                         |                              |
+| [K-Lite Codec Pack](https://www.codecguide.com/about_kl.htm) | 编解码器包是一个包含了大量音频视频格式的编码解码器包，外挂的解码器也可以兼容其它第三方播放器 |                              |
+| [foobar2000](https://www.foobar2000.org/)                    | 一个 Windows 上的免费高级音频播放器                                                          | extras/foobar2000            |
+| [XnView MP](https://www.xnview.com/en/xnviewmp/)             | 一个强大的图片管理浏览器，支持批量裁剪和转换                                                 | extras/xnviewmp              |
+| [Honeyview](https://www.bandisoft.com/honeyview/)            | 一款轻量快速的图片查看器                                                                     | extras/honeyview             |
+| [Jellyfin](https://jellyfin.org/)                            | 综合性音视频媒体库，服务器端                                                                 | extras/jellyfin              |
+| [Jellyfin Media Player](https://jellyfin.org/)               | 上一条的 Windows 客户端                                                                      | extras/jellyfin-media-player |
+| [Komga](https://komga.org)                                   | 漫画书籍类库管理，服务器端                                                                   | extras/komga                 |
+| [Navidorme](https://www.navidrome.org)                       | 私人云音乐管理，服务器端                                                                     | navidrome                    |
+| [Feishin](https://github.com/jeffvli/feishin)                | 上一条的 Windows 客户端                                                                      | extras/feishin               |
 
 ## 硬件工具 {#hardware}
 
@@ -73,10 +76,11 @@ tags:
 
 ## 备份 {#backup}
 
-| 名称                                                 | 简介            | Scoop           |
-| ---------------------------------------------------- | --------------- | --------------- |
-| [Restic](https://restic.net/)                        | 现代的备份程序  | restic          |
-| [Backrest](https://github.com/garethgeorge/backrest) | Restic 的 WebUI | extras/backrest |
+| 名称                                                 | 简介                                     | Scoop            |
+| ---------------------------------------------------- | ---------------------------------------- | ---------------- |
+| [Restic](https://restic.net/)                        | 现代的备份程序                           | restic           |
+| [Backrest](https://github.com/garethgeorge/backrest) | Restic 的 WebUI                          | extras/backrest  |
+| [Duplicati](https://www.duplicati.com)               | 也是备份程序，可利用多种网盘的平台做储存 | extras/duplicati |
 
 ## 其它 {#other}
 
