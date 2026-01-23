@@ -132,3 +132,7 @@
 ### 张雪峰
 
 - [5000 万爱国营销](https://zh.wikipedia.org/wiki/%E5%BC%A0%E9%9B%AA%E5%B3%B0#%E6%89%93%E5%8F%B0%E6%B9%BE%E6%8D%90%E6%AC%BE5000%E4%B8%87%E8%A8%80%E8%AE%BA)（2025 年） <sup>[[x]](https://x.com/i/status/1963699700772835792) [[weixin]](https://mp.weixin.qq.com/s/UBJ0bpOW8hDol790e1PWrw) [[weixin]](https://mp.weixin.qq.com/s/40RKWT9mnaYtXD6nY7jnIA)</sup>
+
+### 孔选仲
+
+- 斩杀线（2025 年）<sup>[[nytimes]](https://cn.nytimes.com/business/20260113/china-american-poverty/)</sup>
