@@ -7,27 +7,27 @@ tags:
 
 本处收集的软件以 Windows 为主，部分包含 Scoop 包名。
 
-## 软件包管理 {#package-management}
+## 软件包管理 {/* #package-management */}
 
 | 名称                                              | 简介                                                                     |
 | ------------------------------------------------- | ------------------------------------------------------------------------ |
 | [winget](https://github.com/microsoft/winget-cli) | Windows 程序包管理器是微软为 Windows 10 开发的一款自由开源的软件包管理器 |
 | [scoop](https://scoop.sh/)                        | Scoop 是一个 Windows 的命令行安装工具，推荐用于偏绿色的软件              |
 
-## 浏览器 {#browser}
+## 浏览器 {/* #browser */}
 
 | 名称                                              | 简介                                        | Scoop               |
 | ------------------------------------------------- | ------------------------------------------- | ------------------- |
 | [Firefox](https://www.mozilla.org/zh-CN/firefox/) | 由 Mozilla 公司开发，自由及开源的网页浏览器 | extras/firefox      |
 | [Chrome](https://www.google.cn/chrome/)           | Google 开发的免费网页浏览器                 | extras/googlechrome |
 
-## 压缩解压 {#archive}
+## 压缩解压 {/* #archive */}
 
 | 名称                            | 简介                                         | Scoop |
 | ------------------------------- | -------------------------------------------- | ----- |
 | [7-Zip](https://www.7-zip.org/) | 一个支持多种格式的归档管理器，有很高的压缩比 | 7zip  |
 
-## 编程开发 {#programming}
+## 编程开发 {/* #programming */}
 
 | 名称                                                          | 简介                                              | Scoop                                          |
 | ------------------------------------------------------------- | ------------------------------------------------- | ---------------------------------------------- |
@@ -39,7 +39,7 @@ tags:
 | [NVM for Windows](https://github.com/coreybutler/nvm-windows) | 用于 Windows 的 Node.js 的多版本管理器            | nvm                                            |
 | [Temurin JRE / JDK](https://adoptium.net/)                    | Eclipse 维护的预编译 Java 运行时                  | java/temurin-lts-jre<br />java/temurin-lts-jdk |
 
-## 网络软件 {#network}
+## 网络软件 {/* #network */}
 
 | 名称                                                                                    | 简介                                                        | Scoop                       |
 | --------------------------------------------------------------------------------------- | ----------------------------------------------------------- | --------------------------- |
@@ -49,7 +49,7 @@ tags:
 | [Thunderbird](https://www.thunderbird.net/)                                             | 一款免费的电子邮件应用程序，配置简单，定制自由              | extras/thunderbird          |
 | [QuiteRSS](https://quiterss.org/)                                                       | 一个开源的本地 RSS 阅读器                                   | extras/quiterss             |
 
-## 多媒体 {#multimedia}
+## 多媒体 {/* #multimedia */}
 
 | 名称                                                         | 简介                                                                                         | Scoop                        |
 | ------------------------------------------------------------ | -------------------------------------------------------------------------------------------- | ---------------------------- |
@@ -64,7 +64,7 @@ tags:
 | [Navidorme](https://www.navidrome.org)                       | 私人云音乐管理，服务器端                                                                     | navidrome                    |
 | [Feishin](https://github.com/jeffvli/feishin)                | 上一条的 Windows 客户端                                                                      | extras/feishin               |
 
-## 硬件工具 {#hardware}
+## 硬件工具 {/* #hardware */}
 
 | 名称                                                         | 简介                                  | Scoop                  |
 | ------------------------------------------------------------ | ------------------------------------- | ---------------------- |
@@ -74,7 +74,7 @@ tags:
 | [HWiNFO](https://www.hwinfo.com/)                            | 专业的系统信息、硬件分析与监控软件    | extras/hwinfo          |
 | [Ventoy](https://www.ventoy.net/)                            | 创建可引导 USB 设备的工具             | extras/ventoy          |
 
-## 备份 {#backup}
+## 备份 {/* #backup */}
 
 | 名称                                                 | 简介                                     | Scoop            |
 | ---------------------------------------------------- | ---------------------------------------- | ---------------- |
@@ -82,7 +82,7 @@ tags:
 | [Backrest](https://github.com/garethgeorge/backrest) | Restic 的 WebUI                          | extras/backrest  |
 | [Duplicati](https://www.duplicati.com)               | 也是备份程序，可利用多种网盘的平台做储存 | extras/duplicati |
 
-## 其它 {#other}
+## 其它 {/* #other */}
 
 | 名称                                                 | 简介                                            | Scoop           |
 | ---------------------------------------------------- | ----------------------------------------------- | --------------- |

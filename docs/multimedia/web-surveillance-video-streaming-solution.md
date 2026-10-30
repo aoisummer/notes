@@ -10,7 +10,7 @@
 
 :::
 
-## 前言 {#foreword}
+## 前言 {/* #foreword */}
 
 本处不会详细讲解每个概念，但会列出一些经常被误解和混淆的概念：
 
@@ -62,7 +62,7 @@
   - MKVToolNix
   - HandBrake
 
-## 准备
+## 准备 {/* #prepare */}
 
 鉴于不是随时都能找到一个设备进行调试，因此准备一个本地的 RTSP 源比较方便，这里会用到本文的主要工具 [MediaMTX](https://github.com/bluenviron/mediamtx) 作为 RTSP 服务器端。
 
@@ -82,7 +82,7 @@ ffmpeg -re -stream_loop -1 -i input.mp4 -vcodec libx264 -s 854x480 -b:v 1000k -b
 
 现在我们有了一个 RTSP 源，地址是 `rtsp://127.0.0.1:8554/mystream`，为了测试该地址是否生效，你可以使用支持的客户端打开该地址进行播放，例如：VLC、PotPlayer 等。
 
-## 流媒体协议 {#streaming-protocol}
+## 流媒体协议 {/* #streaming-protocol */}
 
 这是一种将多媒体数据分段压缩后，通过网络实时发送以供用户观看的应用层协议。常见的协议有：
 
@@ -102,7 +102,7 @@ ffmpeg -re -stream_loop -1 -i input.mp4 -vcodec libx264 -s 854x480 -b:v 1000k -b
 
 这本来是一个设计用于浏览器端进行实时语音、视频对话的现代 API，但也可用来传输直播流。
 
-## 技术选择 {#tech-choice}
+## 技术选择 {/* #tech-choice */}
 
 总结一下上面的协议可以得到下表：
 
@@ -123,7 +123,7 @@ paths:
 
 针对后几种情况，下面会进行测试。
 
-### 基于 HLS {#based-on-hls}
+### 基于 HLS {/* #based-on-hls */}
 
 通过[查询](https://caniuse.com/http-live-streaming)可以发现，该协议对于桌面端的原生支持不好，但对于非原生支持的浏览器可以通过 [HLS.js](https://github.com/video-dev/hls.js) 库实现播放，下面以该库作为播放器进行。
 
@@ -153,7 +153,7 @@ MediaMTX 支持以 HLS 协议访问 RTSP 源，默认通过 8888 端口访问该
 
 本协议实施比较方便，浏览器兼容性也较好，但主要缺点是延迟较高，如果对延迟方面有要求则本方案可能不适合。
 
-### 基于 WebRTC {#based-on-webrtc}
+### 基于 WebRTC {/* #based-on-webrtc */}
 
 作为一个比较新的标准，WebRTC 的[兼容性](https://caniuse.com/rtcpeerconnection)比起 HLS 来说要差一点。而且该协议并非专门为直播流设计，大多数为底层 API，高层封装的库要依据具体实现而各自编写。
 
@@ -185,7 +185,7 @@ MediaMTX 也支持以 WebRTC 方式访问 RTSP 源，默认通过 8889 端口访
 
 此处以一个 `iframe` 的形式内部嵌入了一个 `video` 标签，内部封装库由内置实现，外部控制不方便，但大多数情况下仅插入该标签即可，实施方便，延迟也较低。
 
-### 基于 WHEP {#based-on-whep}
+### 基于 WHEP {/* #based-on-whep */}
 
 WHEP（WebRTC HTTP Egress Protocol）是一个全新的、扩展自 WebRTC 的协议标准草案，改善了前面提到的 WebRTC 全是底层 API，没有高层信令协议的问题。
 
@@ -219,7 +219,7 @@ MediaMTX 也支持以 WHEP 方式访问 RTSP 源，编辑如下文件即可访�
 
 本方案因为是基于 WebRTC，所以优点是相同的，实施也比较方便，但由于是新的标准，具体兼容性要进行实验才能得知。
 
-### 基于 WebSocket {#based-on-websocket}
+### 基于 WebSocket {/* #based-on-websocket */}
 
 WebSocket 虽然不是流媒体协议，但其全双工的通信方式也可以用于向客户端推送多媒体数据。且由于良好的浏览器支持度，以及可以与 HTTP 复用端口，可以绕过前面的部分协议中对防火墙限制的需求。
 
@@ -228,7 +228,7 @@ WebSocket 虽然不是流媒体协议，但其全双工的通信方式也可以�
 - [RTSP Relay](https://github.com/k-yle/rtsp-relay)：这是一个基于 Express 的服务器端，内部使用了 FFmpeg 进行转码为 MPEG-1 视频格式，在浏览器端使用 jsmpeg 播放。缺点是 MPEG-1 格式压缩率太低，比较占用带宽。
 - [flv.js](https://github.com/Bilibili/flv.js)：本来是一个不需要 Flash 插件支持，用于播放 Flash Video 的浏览器端播放器，后扩展为可以支持通过 WebSocket 传输 FLV 流播放。不含服务器端。
 
-## 其它方案 {#other}
+## 其它方案 {/* #other */}
 
 ### [WebRTC-Streamer](https://github.com/mpromonet/webrtc-streamer)
 
@@ -276,6 +276,6 @@ WebSocket 虽然不是流媒体协议，但其全双工的通信方式也可以�
 </html>
 ```
 
-## 总结 {#conclusion}
+## 总结 {/* #conclusion */}
 
 前面列出了很多方案，综合来看，WebRTC 是延迟上比较有优势的，是推荐方案，但具体实现各有千秋。WHEP 作为最新标准仍在草案阶段，有可能兼容性问题不满足需求，需要慎用。

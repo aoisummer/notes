@@ -5,7 +5,7 @@ tags:
 
 # 前端学习指南
 
-## 基础 {#basic}
+## 基础 {/* #basic */}
 
 要进行开发，应准备一个使用比较友好的编辑器（如 VSCode），以及确定一个兼容的最低浏览器版本，这将决定你能使用到哪些语法、功能、API 等等。
 
@@ -17,15 +17,15 @@ tags:
 
 :::
 
-### HTML、CSS、JavaScript {#html-css-javascript}
+### HTML、CSS、JavaScript {/* #html-css-javascript */}
 
 可以从[附录](#appendix)里的 MDN 和 W3Schools 进行基础的了解。
 
-### 布局模式 {#layout-mode}
+### 布局模式 {/* #layout-mode */}
 
 随着各项标准的发展，布局模式也经历了多次演变。根据当时浏览器的兼容性，产生了如下几种布局模式：
 
-#### table 布局 {#table-layout}
+#### table 布局 {/* #table-layout */}
 
 早期的开发是使用 **Microsoft FrontPage** 和 **Macromedia Dreamweaver** 等所见即所得编辑器居多，但生成的代码过于冗余，甚至部分不符合规范标准。这个时期的网页功能很少，以展示类的居多，同时屏幕分辨率也相对较小（`800 * 600`），产生了以 table 为主的布局方式。
 
@@ -61,7 +61,7 @@ tags:
 
 </details>
 
-#### float 布局 {#float-layout}
+#### float 布局 {/* #float-layout */}
 
 随着 CSS 的引入，语义化 HTML 的要求，页面上逻辑变得越来越多，老旧的所见即所得编辑变得不太好用，合适的文本编辑器流行起来。同时为了解决跨浏览器兼容性问题，jQuery 作为这个时代最主要的解决方案遍布各个地方。主流屏幕分辨率提高到了 `1024 * 768`，栅格式布局也来到了 `80 * 12 = 960` 的宽度。
 
@@ -118,7 +118,7 @@ tags:
 
 </details>
 
-#### flex 布局 {#flex-layout}
+#### flex 布局 {/* #flex-layout */}
 
 标准的进一步发展，逻辑的进一步复杂，对 UI 的统一性需求，催生出了 Bootstrap 这款响应式设计优先的框架。在 float 也渐渐不能满足需求的情况下，flex 作为新的标准诞生了，对于现代浏览器来说有着足够好的兼容性（IE 10+），也是目前的主要布局模式。
 
@@ -173,15 +173,15 @@ tags:
 
 - [A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 
-## 开发模式 {#development-mode}
+## 开发模式 {/* #development-mode */}
 
 下面的部分小节列出了一些成熟的常用工具。
 
-### 传统模式 {#traditional-mode}
+### 传统模式 {/* #traditional-mode */}
 
 针对仅静态内容，使用编辑器编写原生内容然后浏览器刷新查看更改。
 
-### 静态生成（SSG） {#static-site-generator}
+### 静态生成（SSG） {/* #static-site-generator */}
 
 在前一节的基础上引入了 Node.js 工具链，同时使用模板引擎等提高代码复用率。
 
@@ -190,39 +190,39 @@ tags:
 - [Hexo](https://github.com/hexojs/hexo)
 - [Hugo](https://github.com/gohugoio/hugo) （Go 语言）
 
-### 客户端渲染（CSR） {#client-side-rendering}
+### 客户端渲染（CSR） {/* #client-side-rendering */}
 
 针对前后端分离并有交互的内容，大量使用了 Node.js 工具链，当前主要开发模式。同时也分为了多个框架流派。
 
-#### [React](https://react.dev/) {#csr-react}
+#### [React](https://react.dev/) {/* #csr-react */}
 
 - [Create React App](https://create-react-app.dev/)
 
-#### [Vue](https://vuejs.org/) {#csr-vue}
+#### [Vue](https://vuejs.org/) {/* #csr-vue */}
 
 - [Vite](https://vitejs.dev/)
 - [Vue CLI](https://cli.vuejs.org/)
 
-#### [Angular](https://angular.io/) {#csr-angular}
+#### [Angular](https://angular.io/) {/* #csr-angular */}
 
 - [Angular CLI](https://angular.io/guide/setup-local)
 
-### 服务器端渲染（SSR） {#server-side-rendering}
+### 服务器端渲染（SSR） {/* #server-side-rendering */}
 
 在前一节的基础上发展而来，将前后端整合开发，主要用于全栈，SEO 优化等。（严格来说已超出前端范畴）
 
-#### React {#ssr-react}
+#### React {/* #ssr-react */}
 
 - [Next.js](https://nextjs.org/)
 - [Remix](https://remix.run/)
 
-#### Vue {#ssr-vue}
+#### Vue {/* #ssr-vue */}
 
 - [Nuxt.js](https://nuxtjs.org/)
 
-## 一些误区 {#misunderstanding}
+## 一些误区 {/* #misunderstanding */}
 
-### 吹捧 Vite，夸大 HTTP 2 性能 {#misunderstanding-1}
+### 吹捧 Vite，夸大 HTTP 2 性能 {/* #misunderstanding-1 */}
 
 由于 ES Module 已作为标准推出，很多编译器以该标准作为基础进行优化，以达到性能提升。另外 HTTP 2 的普及，也使大量小文件的加载性能得到提升。但根据真实生产环境中的测试，切换到 ES Module + HTTP 2 的方案并没有带来很大的提升，有的时候反而情况变得更糟糕，这是解释型语言的弊端。
 
@@ -230,7 +230,7 @@ tags:
 
 - [Bundling vs Native ESM](https://turbo.build/pack/docs/why-turbopack#bundling-vs-native-esm)
 
-### 吹捧 yarn、pnpm {#misunderstanding-2}
+### 吹捧 yarn、pnpm {/* #misunderstanding-2 */}
 
 yarn 和 pnpm 都是在早期针对 npm 的不足诞生的工具，但今天的 npm 作为默认工具已改进吸取了大部分优势，新的特性包括：
 
@@ -238,7 +238,7 @@ yarn 和 pnpm 都是在早期针对 npm 的不足诞生的工具，但今天的 
 - workspace 支持
 - 以目录链接方式安装依赖（测试）
 
-## 附录 {#appendix}
+## 附录 {/* #appendix */}
 
 参考资料：
 

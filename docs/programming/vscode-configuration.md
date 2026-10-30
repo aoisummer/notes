@@ -5,7 +5,7 @@ tags:
 
 # VSCode 配置
 
-## 工作区推荐扩展 {#workspace-recommend-extensions}
+## 工作区推荐扩展 {/* #workspace-recommend-extensions */}
 
 这里推荐了 eslint 和 prettier 两个扩展。
 
@@ -15,7 +15,7 @@ tags:
 }
 ```
 
-## 工作区选项设置 {#workspace-settings}
+## 工作区选项设置 {/* #workspace-settings */}
 
 这里启用了如下配置：
 

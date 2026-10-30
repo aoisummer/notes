@@ -2,7 +2,7 @@
 
 虽然互联网没有记忆，但还好有万能的搜索引擎。
 
-## 组织 {#organization}
+## 组织 {/* #organization */}
 
 ### 百度
 
@@ -84,7 +84,7 @@
 
 - 与马拉松女子冠军解约（2025 年） <sup>[[x]](https://x.com/i/status/1963252539874246834)</sup>
 
-## 人物 {#person}
+## 人物 {/* #person */}
 
 ### 周鸿祎
 
@@ -116,6 +116,7 @@
 ### 汤家凤
 
 - [iPhone 爆炸阴谋论](https://tfc-taiwan.org.tw/articles/11038)（2024 年）<sup>[[x]](https://x.com/i/status/1838513718981988847)</sup>
+- 呼吁取消英语作为核心课程的地位（2026 年）<sup>[[x]](https://x.com/i/status/2096599306837074378)</sup>
 
 ### 董明珠
 
@@ -136,3 +137,7 @@
 ### 孔选仲
 
 - 斩杀线（2025 年）<sup>[[nytimes]](https://cn.nytimes.com/business/20260113/china-american-poverty/)</sup>
+
+### 连岳
+
+- 发文辱骂新加坡（2026 年）<sup>[[x]](https://x.com/i/status/2101652595668619613)</sup>

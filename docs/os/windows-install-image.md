@@ -9,6 +9,10 @@ tags:
 
 ## Windows 11
 
+- **Windows 11 (consumer editions), version 26H2 (x64) - DVD (Chinese-Simplified)**<br />
+  File: [zh-cn_windows_11_consumer_editions_version_26h2_x64_dvd_3622091b.iso](magnet:?xt=urn:btih:fd365d7f570ae355084dfd85e4829b19a628f81b&dn=zh-cn_windows_11_consumer_editions_version_26h2_x64_dvd_3622091b.iso&xl=9112440832)<br />
+  SHA256: b795b52d598bf8fdea5975844731f4a50c5713876cefc513884354272b023af0
+
 - **Windows 11 (consumer editions), version 25H2 (x64) - DVD (Chinese-Simplified)**<br />
   File: [zh-cn_windows_11_consumer_editions_version_25h2_x64_dvd_0549fc93.iso](magnet:?xt=urn:btih:9dee3cb77e1bbce87deb11caf082c20a888081f9&dn=zh-cn_windows_11_consumer_editions_version_25h2_x64_dvd_0549fc93.iso&xl=7774558208)<br />
   SHA256: 3ba0e9ff816088f054077b94c2229ba290d984975ab5ced420123cd46dcecbd0
@@ -68,7 +72,7 @@ tags:
 :::
 
 - **Windows 8.1 with Update (multiple editions) (x64) - DVD (Chinese-Simplified)**<br />
-  File: [cn_windows_8.1_with_update_x64_dvd_6051473.iso](ed2k://|file|cn_windows_8.1_with_update_x64_dvd_6051473.iso|4504475648|D66BEF759548656EDA981D902A957545|/)<br />
+  File: <a href="ed2k://|file|cn_windows_8.1_with_update_x64_dvd_6051473.iso|4504475648|D66BEF759548656EDA981D902A957545|/">cn_windows_8.1_with_update_x64_dvd_6051473.iso</a><br />
   SHA1: 9A85EAC2D20446E3E086BF57A7DFC8832FB3BA56
 
 ## Windows 7

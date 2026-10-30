@@ -7,7 +7,7 @@
 - 局域网地址：`http://192.168.1.101:8000`
 - 公网地址：`https://nextcloud.example.com:10443`
 
-## 配置 nginx {#nginx-config}
+## 配置 nginx {/* #nginx-config */}
 
 ```
 server {
@@ -28,7 +28,7 @@ server {
 }
 ```
 
-## 配置 nextcloud {#nextcloud-config}
+## 配置 nextcloud {/* #nextcloud-config */}
 
 这里的核心是修改 `/var/www/html/config/config.php` 文件，docker 用户请调整你的文件路径。
 
